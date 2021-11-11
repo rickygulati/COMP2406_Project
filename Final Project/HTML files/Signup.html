@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="Log in.css">
+</head>
+
+<body onload="init()">
+    <div class="navigation">
+
+        <div class="navigationLeft">
+            <a href="Home.html">HOME</a>
+        </div>
+    </div>
+    <div class="name">
+        <h2>Sign Up</h2>
+
+    </div>
+    <form id="formSignUp">
+        <div class="username">
+            <label for="username"><b>Username</b></label>
+            <input type="text" id="usernameBox" placeholder="Enter your gamer name.." name="username" required/>
+        </div>
+        <div class="password">
+            <label for="password"><b>Password </b></label>
+            <input type="password" id="passwordBox" placeholder="Enter your password" name="password" required/>
+
+        </div>
+        <div class="repeatPassword">
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" id="repeatPassword" placeholder="Repeat Password" name="psw-repeat" required/>
+        </div>
+        <p id="loginErrorMsg"></p>
+        <button type="submit" id="SignUpSubmit">Sign Up</button>
+
+    </form>
+</body>
+
+</html>
